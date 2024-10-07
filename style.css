@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,p,li{ 
+    font-family: sans-serif;
+    color: #444;
+}
+
+h1,h2,h3{
+    color: #1098ad;
+}
+
+h1 span{
+    font-size: 26px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20x 40px;
+    margin-bottom: 40px;
+    align-items: center;
+    background-color: #f7f7f7d2;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    background-image: url("images/background.jpg");
+}
+
+
+.about{
+    display: flex;
+    background-color: rgba(192, 229, 253, 0.822);
+    gap: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.about-text{
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.about-text::first-letter{
+    font-size: 30px;
+}
+
+.about img{
+    border-radius: 20px;
+    height: 200px;
+}
+
+.main{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin: 25px;
+}
+
+.recommend{
+    margin-top: 60px;
+    background-color: #f7f7f7d4;
+    line-height: 35px;
+    padding: 20px 20px;
+    border: solid;
+}
+
+.also-try{
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-decoration: underline solid black;
+}
+
+.recipe{
+    background-color: #f7f7f7d2;
+    padding: 20px 40px;
+    border: solid;
+}
+
+.ingredients-text{
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-decoration: underline solid black;
+}
+
+.ingredients-items{
+    line-height: 35px;
+    font-size: large;
+    font-weight: 500;
+}
+
+.instruction-text{
+    margin-top: 30px;
+    text-decoration: underline solid black;
+}
+
+.instruction-list{
+    line-height: 35px;
+    font-size: large;
+}
+
+.main dt{
+    font-weight: bold;
+}
+
+.main dd{
+    font-size: medium;
+}
+
+/*Links*/
+.navlink{
+    margin-right: 30px;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+a:link,a:visited{
+    color: #1098ad;
+}
+
+a:hover,a:active{
+    text-decoration: underline solid orangered;
+    color: orangered;
+    font-weight: bold;
+}
+
+
+
